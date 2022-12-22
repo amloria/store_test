@@ -1,0 +1,132 @@
+.section__products {
+  padding: 10px;
+  color: #082740;
+}
+
+.section__products h2 {
+  padding: 10px;
+}
+
+.new__product {
+  width: 250px;
+  height: 100%;
+  border-radius: 10px;
+  color: #082740;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  border-color: #38A89A;
+  cursor: pointer;
+}
+
+.new__product i {
+  padding-bottom: 15px;
+  color: #46cfbf;
+  cursor: pointer;
+}
+
+.new__product span {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.products__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.product__card, .new__card {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px rgb(39 39 41 / 15%);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-between;
+  margin: 15px 15px 45px;
+  width: 250px;
+  overflow: hidden;
+  transition: all .15s ease-in-out;
+  position: relative;
+}
+
+.product__card i {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 25px;
+  width: 25px;
+  background-color: #f2f2f2;
+  color: #082740;
+  text-align: center;
+  padding: 4px;
+  border-radius: 50%;
+  opacity: 85%;
+  transition: all 150ms ease-in-out;
+  &:hover {
+    background-color: #082740;
+    color: #f2f2f2;
+    cursor: pointer;
+  }
+}
+
+.product__card:hover, .new__card:hover {
+  transform: scale(1.005);
+}
+
+.product__card__img {
+  height: 40%;
+  object-fit: fill;
+  width: 100%;
+}
+
+.product__card__details {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-between;
+  padding: 10px 10px 20px;
+  width: 100%;
+}
+
+.product__card__details h4 {
+  margin-bottom: 0;
+}
+
+.product__card__details p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  direction: ltr;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.product__card__cta {
+  background-color: #082740;
+  color: #fff;
+  border: #fff solid 1px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.product__card__cta:hover {
+  background-color: #46cfbf;
+  color: #082740;
+  border: #46cfbf solid 1px;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,52 @@
+.home {
+  background-image: url(../../assets/home-cover.png);
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__bg__img {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home__start {
+  padding: 10px;
+}
+
+.home__start h1{
+  font-size: 40px;
+}
+
+.home__buttons {
+  padding: 15px;
+}
+
+.home__button {
+  padding: 10px 15px;
+  margin: 15px;
+  cursor: pointer;
+  color: #082740;
+  font-weight: 600;
+  border-radius: 5px;
+  border: #fff solid 1px;
+  transition: all 200ms ease-in-out;
+}
+
+.button__buy {
+  background-color: #082740;
+  color: #fff;
+}
+
+.home__button:hover {
+  background-color: #46cfbf;
+  color: #082740;
+  border: #46cfbf solid 1px;
+  box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.44);
+}

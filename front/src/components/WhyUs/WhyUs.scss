@@ -1,0 +1,36 @@
+.section__joinus {
+    background: linear-gradient(#082740, #46cfbf);
+    color: #fff;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+  }
+  
+  .section__joinus h2 {
+    font-size: 40px;
+  }
+  
+  .section__joinus p {
+    font-size: 24px;
+  }
+  
+  .joinus__button {
+    background-color: #082740;
+    color: #fff;
+    border: #082740 solid 1px;
+    padding: 15px 30px;
+    /* margin: 5px; */
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 200ms ease-in-out;
+    margin-bottom: 30px;
+  }
+  
+  .joinus__button:hover {
+    background-color: #fff;
+    color: #082740;
+    border: #082740 solid 1px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+  }

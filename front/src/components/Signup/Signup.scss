@@ -1,0 +1,88 @@
+.auth__form__container {
+    color: #082740;
+    margin: 50px auto;
+}
+
+.auth__form {
+    text-align: center;
+    max-width: 450px;
+    min-height: 70vh;
+    margin: auto;
+}
+
+form div {
+    margin: 10px;
+}
+
+.auth__form__input input, .auth__button {
+    border: 1px solid #e2dddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.auth__form__input input:focus-visible {
+    outline: 1px auto #082740;
+}
+
+.auth__button {
+    transition: all 200ms ease-in-out;
+    font-weight: bold;
+    color: #fff;
+    background-color: #082740;
+}
+
+.auth__button:hover {
+    color: #fff;
+    background-color: #46cfbf;
+    cursor: pointer;
+} 
+
+.line {
+    border-bottom: 1px solid #e2dddd;
+    padding: 10px;
+}
+
+.auth__button--switch {
+    color: #082740;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.auth-success {
+    padding: 15px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: rgba(157, 239, 159, 0.388);
+    color: green;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.auth-success h4 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.auth-success p {
+    margin-bottom: 0;
+}
+
+.auth__form__input span {
+    color: red;
+    display: none;
+}
+
+.auth__form__input input:invalid[ischecked="true"] ~ span {
+    display: block;
+}
+
+.error-message {
+    color: red;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    background-color: rgba(255, 176, 176, 0.3);
+}

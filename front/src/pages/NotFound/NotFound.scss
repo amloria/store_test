@@ -1,0 +1,29 @@
+.notfound__container {
+    min-height: 100vh;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #082740;
+    .notfount__img {
+        width: 50vw;
+    }
+    .notfound__button {
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+        color: #082740;
+        font-weight: 600;
+        border-radius: 5px;
+        border: #fff solid 1px;
+        transition: all 200ms ease-in-out;
+        &:hover {
+            background-color: #46cfbf;
+            border: #46cfbf solid 1px;
+            box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.14);
+        }
+    }
+}
