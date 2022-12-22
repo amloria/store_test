@@ -8,10 +8,10 @@ const productCtrl = require("../controllers/product");
 
 //Routes
 
-router.get("/", auth, productCtrl.getAllProducts);
-router.post("/", auth, multer, productCtrl.createProduct);
-router.put("/:id", auth, multer, productCtrl.updateProduct);
-router.delete("/:id", auth, productCtrl.deleteProduct);
-router.get("/:id", auth, productCtrl.getOneProduct);
+router.get("/", /*auth,*/ productCtrl.getAllProducts);
+router.post("/", /* auth,*/ multer, productCtrl.createProduct);
+router.put("/:id", /*auth,*/ multer, productCtrl.updateProduct);
+router.delete("/:id", /*auth,*/ productCtrl.deleteProduct);
+router.get("/:id", /*auth,*/ productCtrl.getOneProduct);
 
 module.exports = router;
