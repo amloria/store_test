@@ -2,7 +2,7 @@
 
 ## To run the app in development mode
 
-From the "backend" folder of the project directory, you can run:
+From the "back" folder of the project directory, you can run:
 
 ### `nodemon server`
 
@@ -10,7 +10,7 @@ Runs the backend of the app on PORT=4000 and connects to DB.
 
 ---
 
-From the "frontend" folder of the project directory, you can run:
+From the "front" folder of the project directory, you can run:
 
 ### `npm start`
 
