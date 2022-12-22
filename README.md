@@ -6,9 +6,9 @@ First, in order to install all the packages needed, once from the "front" folder
 
 ### `npm install`
 
-Then create a new folder in the "back" folder of the project directory called "images", which will contain two more folders: "products" and "regions".
+## Create a new folder in the "back" folder of the project directory called "images", which will contain two more folders: "products" and "regions".
 
-It will let the app be able to do CRUD operations.
+It will let the app be able to do CRUD operations correctly.
 
 ## To run the app in development mode
 
